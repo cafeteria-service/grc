@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background: black;
+    position: absolute;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+nav .icon {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+
+nav ol li {
+    margin: 0 25px;
+}
+
+nav ol li a {
+    color:White;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+nav ol li i {
+    color: white;
+}
+
+nav ol li a:hover {
+    background:white ;
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .search_box {
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+
+nav .search_box input {
+    border: none;
+    outline: none;
+    background: #cce2e2;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 550px;
+}
+
+nav .search_box span {
+    color: #0a5071;
+    font-size: 20px;
+    background: rgb(233, 230, 230);
+    padding: 9px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.parallax {
+    background-image: url('background.jpg');
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+
+.section {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: inherit;
+    background-color: beige;
+}
+
+.section .container {
+    max-width: 100%;
+    text-align: center;
+}
+
+.form-control {
+    margin-top: 9px;
+    margin-left: 300px;
+    margin-right: 5px;
+    border: 1px solid blue;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+}
+
+.input-group-text {
+    background: blue;
+    border: 1px solid blue;
+    margin: 8.5px 10px 3px 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.search-box {
+    display: inline-flex;
+    width: 50%;
+}
+
+
+/*css for grocery items start */
+
+img {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+    color: black;
+}
+
+.h1 {
+    color: white;
+}
+
+.default-btn {
+    background-color: rgb(117, 189, 117);
+    color: rgb(5, 5, 5);
+    border: 2px solid #000000;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.default-btn:hover {
+    background-color: #3e8e41;
+    color: white;
+    box-shadow: 0 0 11px rgba(10, 12, 7, 0.993);
+}

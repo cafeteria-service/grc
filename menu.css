@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Mar, 2021, 8:07:35 PM
+    Author     : Santosh Mokashi
+*/
+
+
+
+    
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Feb, 2020, 10:50:08 PM
+    Author     : user
+*/
+
+
+
+ 
+
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+  font-style:oblique;
+                                                                                        
+}
+
+
+
+.button1{
+   
+    font-size:10px;
+    background-color:black;
+    color:white ;
+    padding:4px 30px 4px 30px;
+    margin-top: 24px;
+    font-weight:bold;
+    box-sizing: border-box;
+    margin-left: 210px;
+    position:relative;
+    
+}
+
+

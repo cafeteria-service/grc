@@ -1,0 +1,46 @@
+<html>
+function selectqunt(dropdown_id,list)
+{
+	console.log("list==" +list);
+	
+	for(var i=0;i<list.length;i++)
+	{
+		var id=list[i];
+	    var rootRef14 = firebase.database().ref().child(queries).child("Grocery").child("tea and coffe").child(id);
+	    rootRef14.on('value', function(snapshot) {
+      
+	    var name1 =snapshot.child("quntity").val();
+	
+	    console.log("name=====" +name1);
+	    var values1=Object.values(name1);
+	    console.log("values1====" +values1);
+	  
+	
+
+		
+           select_default("HTML",values1, dropdown_id);
+	
+				  
+			
+		});				
+
+	
+}
+}
+		
+
+function select_default(my_option, all_options, dropdown_id){
+				var temp = "";
+				for(var i = 0; i < all_options.length; i++){
+					if(my_option == all_options[i]){
+						temp += "<option value='"+all_options[i]+"' selected>"+all_options[i]+"</option>";
+					}else{
+						temp += "<option value='"+all_options[i]+"'>"+all_options[i]+"</option>";
+					}
+				}
+				document.getElementById(dropdown_id).innerHTML = temp;
+}
+			
+				
+		
+		

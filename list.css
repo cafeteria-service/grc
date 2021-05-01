@@ -1,0 +1,265 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 9 Apr, 2021, 1:23:25 PM
+    Author     : Santosh Mokashi
+*/
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 29 Mar, 2021, 8:07:35 PM
+    Author     : Santosh Mokashi
+*/
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 12 Feb, 2020, 10:50:08 PM
+    Author     : user
+*/
+
+.menu-body {
+	text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+	left:-300px;
+	
+	
+}
+
+.menu-section {
+    margin-bottom: 80px;
+}
+
+.menu-section-title {
+    font-family: georgia;
+    font-size: 50px;
+    display: block;
+    font-weight: normal;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.menu-item {
+    margin: 35px 0;
+    font-size: 16px;
+	text-align:left
+}
+
+.menu-item1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+	text-align:left;
+	
+}
+
+.menu-item-name {
+    font-family: helvetica;
+    font-weight: bold;
+    border-bottom: 2px dotted rgb(213, 213, 213);
+    font-style: italic;
+	
+	  position: relative;
+	right:40%;
+}
+
+.menu-item-description {
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+
+.menu-item-price {
+    float: right;
+    position: absolute;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: -22px;
+    display: inline-block;
+    right: 75%;
+    font-style: italic;
+}
+
+.box {
+    position: relative;
+    float: right;
+    transform: translate(-50%, -50%);
+    left: -25%;
+    display: inline-block;
+    margin-top: -22px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    position: relative;
+    float: right;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    display: inline-block;
+    margin-top: -32px;
+    margin-right: 200px;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    background: teal;
+    overflow: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 30px;
+    list-style: none;
+}
+
+li {
+    float: left;
+    align-content: center;
+}
+
+nav a {
+    width: 115px;
+    display: block;
+    padding: 25px 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    word-spacing: normal;
+    font-weight: bolder;
+    width: 120px;
+    margin: 200px;
+    padding: 200px;
+}
+
+nav a:hover {
+    background: #66b2b2;
+    transition: 0.6s;
+    text-transform: uppercase;
+}
+
+.footer {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 180px;
+    margin-bottom: -10px;
+    position: relative;
+    background: teal;
+    color: black;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.containe1 {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containe1>div {
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #eee;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.button {
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: rgb(92, 92, 92);
+    color: white;
+    padding: 15px;
+    font-weight: bold
+}
+
+.button1.hover {
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.button1 {
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 30px 4px 30px;
+    margin-top: 24px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-left: -50px
+}
+
+#wrapper {
+    width: 100%;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+#first-div {
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+#second-div {
+    width: 50%;
+    margin: 0;
+    float: right;
+}
+
+.quantity {
+    display: inline-block;
+}
+
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+}
+
+.shopname{
+	
+    background-color:black;
+    height: margin-bottom;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
